@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CatchFlappyGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flappy" translatesAutoresizingMaskIntoConstraints="NO" id="2FI-iR-fwt">
+                                <rect key="frame" x="16" y="219" width="100" height="96"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="EDG-ka-WlS"/>
+                                    <constraint firstAttribute="height" constant="96" id="bEe-5F-7xD"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Flappy" translatesAutoresizingMaskIntoConstraints="NO" id="d0P-WM-N10">
+                                <rect key="frame" x="146" y="219" width="100" height="96"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Flappy" translatesAutoresizingMaskIntoConstraints="NO" id="VPA-PB-5Bj">
+                                <rect key="frame" x="277" y="219" width="100" height="96"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flappy" translatesAutoresizingMaskIntoConstraints="NO" id="dFk-vV-vVa">
+                                <rect key="frame" x="16" y="332" width="100" height="96"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="96" id="3TV-Vm-Lx9"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Flappy" translatesAutoresizingMaskIntoConstraints="NO" id="fCD-n1-DVV">
+                                <rect key="frame" x="146" y="332" width="100" height="96"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Flappy" translatesAutoresizingMaskIntoConstraints="NO" id="4aC-xe-rvm">
+                                <rect key="frame" x="277" y="332" width="100" height="96"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flappy" translatesAutoresizingMaskIntoConstraints="NO" id="ec0-22-tzB">
+                                <rect key="frame" x="16" y="449" width="100" height="96"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Flappy" translatesAutoresizingMaskIntoConstraints="NO" id="AwE-Mq-br0">
+                                <rect key="frame" x="146" y="449" width="100" height="96"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Flappy" translatesAutoresizingMaskIntoConstraints="NO" id="ARl-6g-12K">
+                                <rect key="frame" x="277" y="449" width="100" height="96"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DXs-xF-uJs">
+                                <rect key="frame" x="170" y="59" width="53.333333333333343" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" systemColor="systemYellowColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Highscore: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uA0-m0-rkr">
+                                <rect key="frame" x="140" y="662" width="112" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Score: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uYF-lu-fIM">
+                                <rect key="frame" x="153" y="155" width="99" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ec0-22-tzB" firstAttribute="bottom" secondItem="AwE-Mq-br0" secondAttribute="bottom" id="18a-iI-od6"/>
+                            <constraint firstItem="VPA-PB-5Bj" firstAttribute="leading" secondItem="d0P-WM-N10" secondAttribute="trailing" constant="31" id="1sa-EW-B00"/>
+                            <constraint firstItem="fCD-n1-DVV" firstAttribute="top" secondItem="4aC-xe-rvm" secondAttribute="top" id="5Ag-kb-dMc"/>
+                            <constraint firstItem="ec0-22-tzB" firstAttribute="top" secondItem="AwE-Mq-br0" secondAttribute="top" id="5bK-cg-IdU"/>
+                            <constraint firstItem="AwE-Mq-br0" firstAttribute="top" secondItem="ARl-6g-12K" secondAttribute="top" id="6YG-CM-SKu"/>
+                            <constraint firstItem="dFk-vV-vVa" firstAttribute="trailing" secondItem="ec0-22-tzB" secondAttribute="trailing" id="7e8-BZ-Cel"/>
+                            <constraint firstItem="4aC-xe-rvm" firstAttribute="trailing" secondItem="ARl-6g-12K" secondAttribute="trailing" id="7jN-7N-OcT"/>
+                            <constraint firstItem="d0P-WM-N10" firstAttribute="leading" secondItem="fCD-n1-DVV" secondAttribute="leading" id="814-eA-hrH"/>
+                            <constraint firstItem="2FI-iR-fwt" firstAttribute="trailing" secondItem="dFk-vV-vVa" secondAttribute="trailing" id="Bu0-P7-F0d"/>
+                            <constraint firstItem="d0P-WM-N10" firstAttribute="trailing" secondItem="fCD-n1-DVV" secondAttribute="trailing" id="CYK-as-OlD"/>
+                            <constraint firstItem="ec0-22-tzB" firstAttribute="top" secondItem="dFk-vV-vVa" secondAttribute="bottom" constant="21" id="IZn-Ow-MCd"/>
+                            <constraint firstItem="fCD-n1-DVV" firstAttribute="leading" secondItem="AwE-Mq-br0" secondAttribute="leading" id="IiW-wi-Lsd"/>
+                            <constraint firstItem="2FI-iR-fwt" firstAttribute="leading" secondItem="dFk-vV-vVa" secondAttribute="leading" id="Kjp-jL-9H3"/>
+                            <constraint firstItem="2FI-iR-fwt" firstAttribute="top" secondItem="d0P-WM-N10" secondAttribute="top" id="Lcl-6e-Vax"/>
+                            <constraint firstItem="VPA-PB-5Bj" firstAttribute="trailing" secondItem="4aC-xe-rvm" secondAttribute="trailing" id="Nev-FD-11h"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uA0-m0-rkr" secondAttribute="bottom" constant="132" id="OwT-WF-ngU"/>
+                            <constraint firstItem="uYF-lu-fIM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wme-78-b5q"/>
+                            <constraint firstItem="DXs-xF-uJs" firstAttribute="centerX" secondItem="uYF-lu-fIM" secondAttribute="centerX" id="YDN-YD-HmL"/>
+                            <constraint firstItem="d0P-WM-N10" firstAttribute="bottom" secondItem="VPA-PB-5Bj" secondAttribute="bottom" id="YeQ-x1-7Sz"/>
+                            <constraint firstItem="d0P-WM-N10" firstAttribute="leading" secondItem="2FI-iR-fwt" secondAttribute="trailing" constant="30" id="ZNQ-F2-iz3"/>
+                            <constraint firstItem="AwE-Mq-br0" firstAttribute="bottom" secondItem="ARl-6g-12K" secondAttribute="bottom" id="bqd-70-2Mn"/>
+                            <constraint firstItem="d0P-WM-N10" firstAttribute="top" secondItem="uYF-lu-fIM" secondAttribute="bottom" constant="35" id="fVG-EH-xAN"/>
+                            <constraint firstItem="2FI-iR-fwt" firstAttribute="bottom" secondItem="d0P-WM-N10" secondAttribute="bottom" id="goc-TX-qPG"/>
+                            <constraint firstItem="dFk-vV-vVa" firstAttribute="leading" secondItem="ec0-22-tzB" secondAttribute="leading" id="hdc-ol-Wpb"/>
+                            <constraint firstItem="fCD-n1-DVV" firstAttribute="bottom" secondItem="4aC-xe-rvm" secondAttribute="bottom" id="j3b-Kl-uBl"/>
+                            <constraint firstItem="VPA-PB-5Bj" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="kTI-o0-eWg"/>
+                            <constraint firstItem="dFk-vV-vVa" firstAttribute="top" secondItem="fCD-n1-DVV" secondAttribute="top" id="kge-Jq-FIG"/>
+                            <constraint firstItem="dFk-vV-vVa" firstAttribute="top" secondItem="2FI-iR-fwt" secondAttribute="bottom" constant="17" id="lA3-pq-IwZ"/>
+                            <constraint firstItem="DXs-xF-uJs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="mn2-xE-yQa"/>
+                            <constraint firstItem="4aC-xe-rvm" firstAttribute="leading" secondItem="ARl-6g-12K" secondAttribute="leading" id="mxK-bh-W6f"/>
+                            <constraint firstItem="uYF-lu-fIM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="153" id="rYX-F1-Ecy"/>
+                            <constraint firstItem="AwE-Mq-br0" firstAttribute="centerX" secondItem="uA0-m0-rkr" secondAttribute="centerX" id="riU-dz-mkW"/>
+                            <constraint firstItem="VPA-PB-5Bj" firstAttribute="leading" secondItem="4aC-xe-rvm" secondAttribute="leading" id="tVV-Ab-ctv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ec0-22-tzB" secondAttribute="bottom" constant="273" id="td1-Xn-kqr"/>
+                            <constraint firstItem="2FI-iR-fwt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="tgO-FO-HxY"/>
+                            <constraint firstItem="fCD-n1-DVV" firstAttribute="trailing" secondItem="AwE-Mq-br0" secondAttribute="trailing" id="tpM-Pu-aC9"/>
+                            <constraint firstItem="uYF-lu-fIM" firstAttribute="centerX" secondItem="d0P-WM-N10" secondAttribute="centerX" id="v0v-n7-Xwv"/>
+                            <constraint firstItem="dFk-vV-vVa" firstAttribute="bottom" secondItem="fCD-n1-DVV" secondAttribute="bottom" id="vg2-fD-SMa"/>
+                            <constraint firstItem="2FI-iR-fwt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="160" id="x8l-3Q-jhM"/>
+                            <constraint firstItem="d0P-WM-N10" firstAttribute="top" secondItem="VPA-PB-5Bj" secondAttribute="top" id="yLP-PA-TkN"/>
+                            <constraint firstItem="uA0-m0-rkr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="140" id="zaU-zF-qOy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="flappy1" destination="2FI-iR-fwt" id="I95-1g-Ouq"/>
+                        <outlet property="flappy2" destination="d0P-WM-N10" id="PYU-7Q-fri"/>
+                        <outlet property="flappy3" destination="VPA-PB-5Bj" id="R20-gU-leH"/>
+                        <outlet property="flappy4" destination="dFk-vV-vVa" id="bGk-1e-m6d"/>
+                        <outlet property="flappy5" destination="fCD-n1-DVV" id="a4f-yR-h7d"/>
+                        <outlet property="flappy6" destination="4aC-xe-rvm" id="JdU-PA-yHN"/>
+                        <outlet property="flappy7" destination="ec0-22-tzB" id="3Nr-xF-fRx"/>
+                        <outlet property="flappy8" destination="AwE-Mq-br0" id="y3s-gR-TB3"/>
+                        <outlet property="flappy9" destination="ARl-6g-12K" id="Tc1-Bo-owW"/>
+                        <outlet property="highscoreLabel" destination="uA0-m0-rkr" id="1L4-OK-CjO"/>
+                        <outlet property="scoreLabel" destination="uYF-lu-fIM" id="uLq-rg-SWh"/>
+                        <outlet property="timeLabel" destination="DXs-xF-uJs" id="b3R-7j-fwv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135.1145038167939" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Flappy" width="1024" height="757"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
